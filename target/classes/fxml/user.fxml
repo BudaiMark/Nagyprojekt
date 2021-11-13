@@ -26,7 +26,7 @@
                 <Glow />
             </effect>
         </Label>
-        <Label layoutX="254.0" layoutY="186.0" text="Player name:" textFill="#1f1f25">
+        <Label layoutX="254.0" layoutY="186.0" text="Játékos neve:" textFill="#1f1f25">
             <font>
                 <Font name="Dyuthi" size="18.0" />
             </font>
@@ -36,7 +36,7 @@
                 <Font name="Dyuthi" size="18.0" />
             </font>
         </TextField>
-        <Button fx:id="continueButton" layoutX="254.0" layoutY="290.0" mnemonicParsing="false" onAction="#continueAction" prefHeight="51.0" prefWidth="105.0" text="Continue" textFill="#1f1f25">
+        <Button fx:id="continueButton" layoutX="254.0" layoutY="290.0" mnemonicParsing="false" onAction="#continueAction" prefHeight="51.0" prefWidth="105.0" text="Tovább" textFill="#1f1f25">
             <font>
                 <Font name="Dyuthi" size="18.0" />
             </font>

@@ -26,12 +26,12 @@
             <Glow />
          </effect>
       </Label>
-      <Button fx:id="startButton" layoutX="249.0" layoutY="200.0" mnemonicParsing="false" onAction="#startAction" prefHeight="51.0" prefWidth="105.0" text="Start" textFill="#1f1f25">
+      <Button fx:id="startButton" layoutX="249.0" layoutY="200.0" mnemonicParsing="false" onAction="#startAction" prefHeight="51.0" prefWidth="105.0" text="Játék" textFill="#1f1f25">
          <font>
             <Font name="Dyuthi" size="18.0" />
          </font>
       </Button>
-      <Button fx:id="quitButton" layoutX="249.0" layoutY="281.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="51.0" prefWidth="105.0" text="Quit" textFill="#1f1f25">
+      <Button fx:id="quitButton" layoutX="249.0" layoutY="281.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="51.0" prefWidth="105.0" text="Kilépés" textFill="#1f1f25">
          <font>
             <Font name="Dyuthi" size="18.0" />
          </font>

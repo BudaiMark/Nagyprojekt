@@ -1,4 +1,5 @@
 main/MyApplication.class
 controller/UserController.class
 controller/LaunchController.class
+controller/GameModeController.class
 main/Main.class

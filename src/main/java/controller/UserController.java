@@ -29,10 +29,10 @@ public class UserController {
 
     public void continueAction(ActionEvent actionEvent) throws IOException {
         if (!userName.getText().isEmpty()){
-            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/game.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/gamemode.fxml"));
             Parent root = fxmlLoader.load();
-            //GameController controller = fxmlLoader.getController();
-            //controller.setUsername(playerTextfield.getText());
+            GameModeController controller = fxmlLoader.getController();
+            controller.setUserName(userName.getText());
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
