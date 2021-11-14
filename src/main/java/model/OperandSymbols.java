@@ -2,7 +2,7 @@ package model;
 public enum OperandSymbols {
     SUM,
     SUBTRACTION,
-    MULTPLY,
+    MULTIPLY,
     ALLOPERATION
 
 

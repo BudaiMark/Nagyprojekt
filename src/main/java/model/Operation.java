@@ -25,8 +25,9 @@ public class Operation {
             case SUBTRACTION:
                 returnvalue = leftoperand - rightoperand;
                 break;
-            case MULTPLY:
+            case MULTIPLY:
                 returnvalue = leftoperand * rightoperand;
+                break;
             case ALLOPERATION:
                 Random random = new Random();
                 OperandSymbols tempsymbol = OperandSymbols.values()[random.nextInt(2)];
