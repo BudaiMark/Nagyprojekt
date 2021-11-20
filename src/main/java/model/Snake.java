@@ -18,7 +18,7 @@ public class Snake {
         body = new SnakeBody(new Coordinate(middleY, middleX));
         direction = Directions.RIGHT;
     }
-    
+
     public void moveDirection(){
         switch (direction){
             case UP:
