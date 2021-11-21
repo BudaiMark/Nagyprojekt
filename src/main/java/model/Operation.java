@@ -17,17 +17,8 @@ public class Operation {
 
         }
 
-        @Override
-        public String toString() {
-            return "Operation{" +
-                    "leftoperand=" + leftoperand +
-                    ", rightoperand=" + rightoperand +
-                    ", operandsymbol=" + operandsymbol +
-                    ", result=" + result +
-                    '}';
-        }
 
-        public int calculate(int leftoperand, int rightoperand, OperandSymbols operandsymbol) {
+    public int calculate(int leftoperand, int rightoperand, OperandSymbols operandsymbol) {
             int returnvalue = 0;
             switch (operandsymbol) {
                 case SUM:
@@ -51,4 +42,7 @@ public class Operation {
             }
             return returnvalue;
         }
-    }
+        public int getResult() {
+            return result;
+        }
+}

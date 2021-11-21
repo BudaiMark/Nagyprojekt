@@ -6,20 +6,23 @@ import java.util.Random;
 public class Food {
     private Coordinate foodcoordinate;
     private int value;
+    private boolean result;
 
 
-    public Food(int value, ArrayList<Coordinate> availablecoordinates){
+    public Food(int value, ArrayList<Coordinate> availablecoordinates, boolean result){
         Random randomgenerator = new Random();
-        this.value = value;
-        foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
-        foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
-    }
-
-    public Food(ArrayList<Coordinate> availablecoordinates){
-        Random randomgenerator = new Random();
-        value = randomgenerator.nextInt(10);
-        foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
-        foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+        if(result == true) {
+            this.value = value;
+            foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
+            foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+        }
+        else{
+            do{
+            this.value = randomgenerator.nextInt(10);
+            }while(this.value == value);
+            foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
+            foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+        }
     }
 
     public Coordinate getFoodcoordinate() {
