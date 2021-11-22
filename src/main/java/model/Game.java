@@ -33,13 +33,20 @@ public class Game {
                 }
             }
         }
-
+        Food result = new Food(operation.getResult(),availablecoordinates,true);
+        foods.add(result);
+        availablecoordinates.remove(result.getFoodcoordinate());
         for(int i =0; i< 2; i++){
             Food food = new Food(operation.getResult(), availablecoordinates, false);
-            foods.add(food);
+            boolean differentvalue = isDifferentValue(food);
+            if(differentValue == false){
+                food = new Food(operation.getResult(), availablecoordinates, false);
+            }
+            else{
+                foods.add(food);
+            }
             availablecoordinates.remove(food.getFoodcoordinate());
         }
-        foods.add(new Food(operation.getResult(),availablecoordinates,true));
     }
 
 
@@ -77,6 +84,22 @@ public class Game {
 
             default:
                 break;
+        }
+    }
+    public boolean isDifferentValue(Food food){
+        boolean differentvalue = true;
+        for(int i = 0; i< foods.size(); i++ ){
+            if(foods.get(i).getValue() == food.getValue()){
+                differentvalue = false;
+                break;
+            }
+            
+        }
+        if(differentvalue == false){
+            return false;
+        }
+        else{
+            return true;
         }
     }
 
