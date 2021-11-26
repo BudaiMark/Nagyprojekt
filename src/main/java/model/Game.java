@@ -10,6 +10,7 @@ public class Game {
     private Snake snake;
     private ArrayList<Food> foods;
     private Random randomGenerator;
+    private int score;
 
     private final int boardHeight;
     private final int boardWidth;
@@ -38,13 +39,8 @@ public class Game {
         availablecoordinates.remove(result.getFoodcoordinate());
         for(int i =0; i< 2; i++){
             Food food = new Food(operation.getResult(), availablecoordinates, false);
-            boolean differentvalue = isDifferentValue(food);
-            if(differentValue == false){
-                food = new Food(operation.getResult(), availablecoordinates, false);
-            }
-            else{
-                foods.add(food);
-            }
+            food = makeDifferentValue(operation, food, availablecoordinates);
+            foods.add(food);
             availablecoordinates.remove(food.getFoodcoordinate());
         }
     }
@@ -53,12 +49,19 @@ public class Game {
 
     public void move(){
 
-        if(snake.getHeadCoordinates().isEqual(food)) {
-            Coordinate lastBody = snake.getBodyAsNodes().getTail().clone();
+        if(snake.getHeadCoordinates().isEqual(foods.get(0).getFoodcoordinate()
+        )) {
+            score +=10;
             snake.moveDirection();
-            snake.getBodyAsNodes().snakeGrow(lastBody);
             generateFood();
         }
+        else if(snake.getHeadCoordinates().isEqual(foods.get(1).getFoodcoordinate())||snake.getHeadCoordinates().isEqual(foods.get(2).getFoodcoordinate())){
+            Coordinate lastBody = snake.getBodyAsNodes().getTail();
+            snake.getBodyAsNodes().snakeGrow(lastBody);
+            snake.moveDirection();
+            generateFood();
+        }
+
         else {
             snake.moveDirection();
         }
@@ -86,7 +89,7 @@ public class Game {
                 break;
         }
     }
-    public boolean isDifferentValue(Food food){
+    public Food makeDifferentValue(Operation operation, Food food, ArrayList<Coordinate> availablecoordinates){
         boolean differentvalue = true;
         for(int i = 0; i< foods.size(); i++ ){
             if(foods.get(i).getValue() == food.getValue()){
@@ -96,11 +99,12 @@ public class Game {
             
         }
         if(differentvalue == false){
-            return false;
+            food = new Food(operation.getResult(), availablecoordinates, false);
+            food = makeDifferentValue(operation,food, availablecoordinates);
+
         }
-        else{
-            return true;
-        }
+
+        return food;
     }
 
 
@@ -113,7 +117,4 @@ public class Game {
         return snake.checkIfSnakeCrashed();
     }
 
-    public int getScore(){
-        return snake.getBodyAsCoordinates().size();
-    }
 }

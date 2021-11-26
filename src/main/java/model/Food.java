@@ -17,9 +17,7 @@ public class Food {
             foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
         }
         else{
-            do{
             this.value = randomgenerator.nextInt(10);
-            }while(this.value == value);
             foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
             foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
         }
