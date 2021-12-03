@@ -1,5 +1,4 @@
 package controller;
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -8,6 +7,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
+import model.OperandSymbols;
+
 import org.tinylog.Logger;
 
 import java.io.IOException;
@@ -20,10 +21,10 @@ public class GameModeController {
     /**
      * {@code startButton} A képernyőn látható vizuális eszköz példányosítása, az fxml-ből érjük el id alapján
      */
-    private String username;
+    private String userName;
 
-    public void setUserName(String username){
-        this.username= username;
+    public void setUserName(String userName){
+        this.userName= userName;
     }
 
 
@@ -40,20 +41,45 @@ public class GameModeController {
     private Button allButton;
 
 
+    public OperandSymbols switchOperation(Button button){
+        String buttonText;
+        buttonText = button.getText();
+        OperandSymbols operandSymbols;
+        switch (buttonText){
+            case "Összeadás":
+                operandSymbols = OperandSymbols.SUM;
+                break;
+            case "Kivonás":
+                operandSymbols = OperandSymbols.SUBTRACTION;
+                break;
+            case "Szorzás":
+                operandSymbols = OperandSymbols.MULTIPLY;
+                break;
+            case "Összes":
+                operandSymbols = OperandSymbols.ALLOPERATION;
+                break;
+            default:
+                throw new IllegalStateException("Unexpected value: " + buttonText);
+        }
+        return operandSymbols;
+    }
     /**
-     * {@code startAction()}Egy gomb megnyomásának hatására lefut a metódus amiben betöltjük az új fxml-t.
+     * {@code snakeAction()}Egy gomb megnyomásának hatására lefut a metódus amiben betöltjük az új fxml-t.
      * @param actionEvent A gombhoz tartozó esemény.
      * @throws IOException A lefutása közben adódó Input-Output kivétel.
      */
-
     public void snakeAction(ActionEvent actionEvent) throws IOException {
-
-        /*FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/user.fxml"));
+        Button transButton = (Button)actionEvent.getSource();
+        OperandSymbols transOperandSymbol =switchOperation(transButton);
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/snake.fxml"));
         Parent root = fxmlLoader.load();
+        SnakeController controller = fxmlLoader.getController();
+        controller.setUsername(userName);
+        controller.setOperandSymbol(transOperandSymbol);
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
         stage.show();
-        Logger.info("Betöltődik a konvertáló felület.");*/
+        Logger.info("Betöltődik a konvertáló felület.");
 
 
     }

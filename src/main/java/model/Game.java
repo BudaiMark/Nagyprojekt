@@ -15,17 +15,17 @@ public class Game {
     private final int boardHeight;
     private final int boardWidth;
 
-    public Game(int boardWidth, int boardHeight){
+    public Game(int boardWidth, int boardHeight, OperandSymbols operandSymbol){
         snake = new Snake(boardWidth, boardHeight);
         randomGenerator = new Random(0);
         this.boardHeight = boardHeight;
         this.boardWidth = boardWidth;
-        generateFood();
+        generateFood(operandSymbol);
 
     }
 
-    private void generateFood(){
-        //Operation operation = new Operation();
+    private void generateFood(OperandSymbols operandSymbol){
+        Operation operation = new Operation(operandSymbol);
         ArrayList<Coordinate> availablecoordinates = new ArrayList<>();
         for (int y = 0; y <  boardHeight- 1; y++) {
             for (int x = 0; x < boardWidth- 1 ; x++) {
@@ -47,19 +47,19 @@ public class Game {
 
 
 
-    public void move(){
+    public void move(OperandSymbols operandSymbol){
 
         if(snake.getHeadCoordinates().isEqual(foods.get(0).getFoodcoordinate()
         )) {
             score +=10;
             snake.moveDirection();
-            generateFood();
+            generateFood(operandSymbol);
         }
         else if(snake.getHeadCoordinates().isEqual(foods.get(1).getFoodcoordinate())||snake.getHeadCoordinates().isEqual(foods.get(2).getFoodcoordinate())){
             Coordinate lastBody = snake.getBodyAsNodes().getTail();
             snake.getBodyAsNodes().snakeGrow(lastBody);
             snake.moveDirection();
-            generateFood();
+            generateFood(operandSymbol);
         }
 
         else {
