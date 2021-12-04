@@ -61,12 +61,12 @@ public class EndController {
 
     public void leaderboardAction(ActionEvent actionEvent) throws IOException {
 
-        /*FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/leaderboard.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/score.fxml"));
         Parent root = fxmlLoader.load();
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));
         stage.show();
-        Logger.info("Betöltődik a eredményjelző felület.");*/
+        Logger.info("Betöltődik a eredményjelző felület.");
 
 
     }

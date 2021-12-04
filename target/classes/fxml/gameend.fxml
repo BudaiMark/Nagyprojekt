@@ -26,7 +26,7 @@
                 <Glow />
             </effect>
         </Label>
-        <Button fx:id="restartButton" layoutX="249.0" layoutY="200.0" mnemonicParsing="false" onAction="#restartAction" prefHeight="51.0" prefWidth="105.0" text="Újraindítás" textFill="#1f1f25">
+        <Button fx:id="restartButton" layoutX="249.0" layoutY="200.0" mnemonicParsing="false" onAction="#restartAction" prefHeight="51.0" prefWidth="105.0" text="Újra" textFill="#1f1f25">
             <font>
                 <Font name="Dyuthi" size="18.0" />
             </font>

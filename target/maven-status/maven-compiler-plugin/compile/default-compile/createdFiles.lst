@@ -12,6 +12,7 @@ controller/EndController.class
 model/Snake.class
 model/Game.class
 controller/SnakeController.class
+controller/ScoreController.class
 model/Operation.class
 model/Database.class
 model/Directions.class
