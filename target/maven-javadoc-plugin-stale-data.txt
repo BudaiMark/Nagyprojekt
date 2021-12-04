@@ -1,0 +1,117 @@
+/home/budai/.sdkman/candidates/java/current/bin/javadoc
+@options
+@packages
+-classpath
+'/home/budai/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/budai/.m2/repository/org/hibernate/hibernate-entitymanager/5.4.2.Final/hibernate-entitymanager-5.4.2.Final.jar:/home/budai/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/budai/.m2/repository/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.jar:/home/budai/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/budai/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/budai/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/budai/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/budai/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/budai/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar:/home/budai/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar:/home/budai/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar:/home/budai/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar:/home/budai/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar:/home/budai/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/budai/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/home/budai/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/budai/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar:/home/budai/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/budai/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar:/home/budai/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/home/budai/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/budai/.m2/repository/org/glassfish/javax.el/3.0.1-b11/javax.el-3.0.1-b11.jar:/home/budai/.m2/repository/com/h2database/h2/1.4.199/h2-1.4.199.jar:/home/budai/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar:/home/budai/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar:/home/budai/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-linux.jar:/home/budai/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar:/home/budai/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-linux.jar:/home/budai/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar:/home/budai/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-linux.jar:/home/budai/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar:/home/budai/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-linux.jar:/home/budai/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/budai/.m2/repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar:/home/budai/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar:/home/budai/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/home/budai/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar:/home/budai/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/home/budai/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar:/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar:/home/budai/.m2/repository/org/junit/platform/junit-platform-runner/1.2.0/junit-platform-runner-1.2.0.jar:/home/budai/.m2/repository/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar:/home/budai/.m2/repository/org/junit/platform/junit-platform-suite-api/1.2.0/junit-platform-suite-api-1.2.0.jar:/home/budai/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/budai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/budai/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar:/home/budai/.m2/repository/org/tinylog/tinylog-api/2.3.1/tinylog-api-2.3.1.jar:/home/budai/.m2/repository/org/tinylog/tinylog-impl/2.3.1/tinylog-impl-2.3.1.jar:/home/budai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/budai/Projects/Snake/src/main/java:/home/budai/Projects/Snake/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/budai/Projects/Snake/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'converter 1.0 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/budai/Projects/Snake/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'converter 1.0 API'
+main
+main
+main
+model
+model
+model
+model
+model
+model
+model
+model
+controller
+controller
+controller
+controller
+controller
+/home/budai/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar = 1620563231089
+/home/budai/.m2/repository/org/hibernate/hibernate-entitymanager/5.4.2.Final/hibernate-entitymanager-5.4.2.Final.jar = 1620563231249
+/home/budai/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar = 1620563238121
+/home/budai/.m2/repository/org/hibernate/hibernate-core/5.4.2.Final/hibernate-core-5.4.2.Final.jar = 1620563247446
+/home/budai/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar = 1620563233495
+/home/budai/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar = 1615547073466
+/home/budai/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar = 1620563234091
+/home/budai/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar = 1615547073866
+/home/budai/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar = 1615547073806
+/home/budai/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar = 1620563237056
+/home/budai/.m2/repository/org/glassfish/jaxb/txw2/2.3.1/txw2-2.3.1.jar = 1620563235123
+/home/budai/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.7/istack-commons-runtime-3.0.7.jar = 1620563235167
+/home/budai/.m2/repository/org/jvnet/staxex/stax-ex/1.8/stax-ex-1.8.jar = 1620563235660
+/home/budai/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.15/FastInfoset-1.2.15.jar = 1620563236280
+/home/budai/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar = 1620563236624
+/home/budai/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar = 1620563236748
+/home/budai/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar = 1620563237321
+/home/budai/.m2/repository/net/bytebuddy/byte-buddy/1.9.10/byte-buddy-1.9.10.jar = 1620563238953
+/home/budai/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar = 1620563237373
+/home/budai/.m2/repository/org/hibernate/validator/hibernate-validator/6.0.16.Final/hibernate-validator-6.0.16.Final.jar = 1620563239462
+/home/budai/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar = 1620563237777
+/home/budai/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar = 1620563238489
+/home/budai/.m2/repository/org/glassfish/javax.el/3.0.1-b11/javax.el-3.0.1-b11.jar = 1620563239193
+/home/budai/.m2/repository/com/h2database/h2/1.4.199/h2-1.4.199.jar = 1620563245345
+/home/budai/.m2/repository/org/projectlombok/lombok/1.18.6/lombok-1.18.6.jar = 1620563243928
+/home/budai/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2.jar = 1620563246881
+/home/budai/.m2/repository/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-linux.jar = 1620563246881
+/home/budai/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2.jar = 1620563240070
+/home/budai/.m2/repository/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-linux.jar = 1620563252560
+/home/budai/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2.jar = 1620563244520
+/home/budai/.m2/repository/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-linux.jar = 1620563247025
+/home/budai/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2.jar = 1620563245897
+/home/budai/.m2/repository/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-linux.jar = 1620563246577
+/home/budai/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar = 1620563248310
+/home/budai/.m2/repository/mysql/mysql-connector-java/8.0.15/mysql-connector-java-8.0.15.jar = 1620563251980
+/home/budai/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar = 1620563250939
+/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.2/junit-jupiter-engine-5.4.2.jar = 1620563248202
+/home/budai/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar = 1620563251560
+/home/budai/.m2/repository/org/junit/platform/junit-platform-engine/1.4.2/junit-platform-engine-1.4.2.jar = 1620563248786
+/home/budai/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar = 1620563250227
+/home/budai/.m2/repository/org/junit/platform/junit-platform-commons/1.4.2/junit-platform-commons-1.4.2.jar = 1620563250999
+/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.2/junit-jupiter-api-5.4.2.jar = 1620563250119
+/home/budai/.m2/repository/org/junit/platform/junit-platform-runner/1.2.0/junit-platform-runner-1.2.0.jar = 1620563250843
+/home/budai/.m2/repository/org/junit/platform/junit-platform-launcher/1.2.0/junit-platform-launcher-1.2.0.jar = 1620563251275
+/home/budai/.m2/repository/org/junit/platform/junit-platform-suite-api/1.2.0/junit-platform-suite-api-1.2.0.jar = 1620563251488
+/home/budai/.m2/repository/junit/junit/4.12/junit-4.12.jar = 1620563252184
+/home/budai/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1620563251864
+/home/budai/.m2/repository/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar = 1620840628660
+/home/budai/.m2/repository/org/tinylog/tinylog-api/2.3.1/tinylog-api-2.3.1.jar = 1621261091322
+/home/budai/.m2/repository/org/tinylog/tinylog-impl/2.3.1/tinylog-impl-2.3.1.jar = 1621261091518
+/home/budai/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar = 1621261091346
+/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar = 1638544985580
+/home/budai/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar = 1638544986040
+/home/budai/Projects/Snake/src/main/java = 1636820129884
+/home/budai/Projects/Snake/target/generated-sources/annotations = 1636820460764
+/home/budai/Projects/Snake/target/site/apidocs/tag-search-index.js = 1638547467780
+/home/budai/Projects/Snake/target/site/apidocs/overview-summary.html = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/type-search-index.js = 1638547467780
+/home/budai/Projects/Snake/target/site/apidocs/index-all.html = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/jquery-ui.overrides.css = 1638547467824
+/home/budai/Projects/Snake/target/site/apidocs/help-doc.html = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/module-search-index.js = 1638547467764
+/home/budai/Projects/Snake/target/site/apidocs/constant-values.html = 1638547467564
+/home/budai/Projects/Snake/target/site/apidocs/script.js = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/allpackages-index.html = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/stylesheet.css = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/overview-tree.html = 1638547467664
+/home/budai/Projects/Snake/target/site/apidocs/index.html = 1638547467664
+/home/budai/Projects/Snake/target/site/apidocs/search.js = 1638547467824
+/home/budai/Projects/Snake/target/site/apidocs/allclasses-index.html = 1638547467784
+/home/budai/Projects/Snake/target/site/apidocs/deprecated-list.html = 1638547467664
+/home/budai/Projects/Snake/target/site/apidocs/element-list = 1638547467440
+/home/budai/Projects/Snake/target/site/apidocs/package-search-index.js = 1638547467764
+/home/budai/Projects/Snake/target/site/apidocs/member-search-index.js = 1638547467780

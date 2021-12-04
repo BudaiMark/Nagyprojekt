@@ -9,6 +9,9 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import model.OperandSymbols;
 
+
+import model.User;
+import model.Database;
 import org.tinylog.Logger;
 
 import java.io.IOException;
@@ -69,6 +72,7 @@ public class GameModeController {
      * @throws IOException A lefutása közben adódó Input-Output kivétel.
      */
     public void snakeAction(ActionEvent actionEvent) throws IOException {
+        Database.addUsertoDB(new User("Márk", 100, OperandSymbols.MULTIPLY.name()));
         Button transButton = (Button)actionEvent.getSource();
         OperandSymbols transOperandSymbol =switchOperation(transButton);
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/snake.fxml"));
@@ -89,7 +93,6 @@ public class GameModeController {
      */
     @FXML
     public void initialize(){
-
         sumButton.setStyle(STANDARD);
         subsecButton.setStyle(STANDARD);
         multiplyButton.setStyle(STANDARD);

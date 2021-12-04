@@ -3,6 +3,7 @@ controller/LaunchController.class
 controller/GameModeController.class
 main/Main.class
 model/Game$1.class
+model/User$UserBuilder.class
 controller/UserController.class
 model/OperandSymbols.class
 model/Food.class
@@ -12,7 +13,9 @@ model/Snake.class
 model/Game.class
 controller/SnakeController.class
 model/Operation.class
+model/Database.class
 model/Directions.class
 model/SnakeBody.class
+model/User.class
 model/Operation$1.class
 model/Coordinate.class

@@ -7,9 +7,9 @@
     <packaging>jar</packaging>
     <version>1.0</version>
     <scm>
-        <developerConnection>scm:svn:https://github.com/BudaiMark/BinaryConverter</developerConnection>
+        <developerConnection>scm:svn:https://github.com/BudaiMark/Snake</developerConnection>
     </scm>
-    <description>Converter</description>
+    <description>Snake Game</description>
     <distributionManagement>
         <site>
             <id>shrek</id>
@@ -292,6 +292,9 @@
                 <filtering>true</filtering>
             </resource>
         </resources>
+        <filters>
+            <filter>db.properties</filter>
+        </filters>
     </build>
     <reporting>
         <plugins>
