@@ -34,6 +34,10 @@ public class LaunchController {
     @FXML
     private Button startButton;
 
+    /**
+     * {@code quitButton} Kilépés a játékból
+     */
+
     @FXML
     private Button quitButton;
 

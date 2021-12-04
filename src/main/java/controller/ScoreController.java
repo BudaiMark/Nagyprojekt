@@ -5,8 +5,13 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 import lombok.extern.slf4j.Slf4j;
 import model.Database;
 import model.User;
@@ -31,6 +36,8 @@ public class ScoreController {
      */
     @FXML
     private Button quitButton;
+    @FXML
+    private Button restartButton;
 
     @FXML
     private TableView<User> lastgame;
@@ -102,13 +109,31 @@ public class ScoreController {
         topgame.setItems(observableResult);
 
     }
+
+    /**
+     * {@code restartAction()}Egy gomb megnyomásának hatására lefut a metódus amiben betöltjük az új fxml-t.
+     * @param actionEvent A gombhoz tartozó esemény.
+     * @throws IOException A lefutása közben adódó Input-Output kivétel.
+     */
+    public void restartAction(ActionEvent actionEvent) throws IOException {
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/gamemode.fxml"));
+        Parent root = fxmlLoader.load();
+        Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
+        stage.setScene(new Scene(root));
+        stage.show();
+        Logger.info("Betöltődik a játékmódválasztó felület.");
+
+
+    }
     /**
      * {@code initialize()}Ez a metódus fut le először, a konstruktorhoz nagyon hasonló, azonban innen elérjük az fxml fájl tagjait.
      */
     @FXML
     public void initialize(){
         quitButton.setStyle(STANDARD);
-        Logger.info("Button vizuális beállítása.");
+        restartButton.setStyle(STANDARD);
+        Logger.info("Button-ok vizuális beállítása.");
         writeStandardData();
         Logger.info("Standart adatbázis betöltődött.");
         writeTopTenData();

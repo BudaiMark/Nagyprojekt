@@ -19,14 +19,23 @@ public class GameModeController {
     private static final String STANDARD= "-fx-border-color: black;";
 
     /**
-     * {@code startButton} A képernyőn látható vizuális eszköz példányosítása, az fxml-ből érjük el id alapján
+     * {@code userName} Átadandó felhasználó neve
      */
     private String userName;
+
+    /**
+     *
+     * @param userName Felhasználónév
+     * {@code setUsername} Beállitja a felhasunáló nevét
+     */
 
     public void setUserName(String userName){
         this.userName= userName;
     }
 
+    /**
+     * {@code sumButton,subsecButton,multiplyButton,allButton} Az fxml-ben szereplő gombok példányositása.
+     */
 
     @FXML
     private Button sumButton;
@@ -40,11 +49,16 @@ public class GameModeController {
     @FXML
     private Button allButton;
 
-
+    /**
+     *
+     * @param button Buttontt kap, aminek lekérdezi a text-jét.
+     * @return Visszatér a műveleti jellel, ami szükséges.
+     */
     public OperandSymbols switchOperation(Button button){
         String buttonText;
         buttonText = button.getText();
         OperandSymbols operandSymbols;
+        Logger.info("Műveletválasztás");
         switch (buttonText){
             case "Összeadás":
                 operandSymbols = OperandSymbols.SUM;
@@ -93,7 +107,7 @@ public class GameModeController {
         subsecButton.setStyle(STANDARD);
         multiplyButton.setStyle(STANDARD);
         allButton.setStyle(STANDARD);
-        Logger.info("Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.");
+        Logger.info("Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.");
 
 
     }

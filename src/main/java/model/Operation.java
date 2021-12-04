@@ -1,6 +1,11 @@
 package model;
+import org.tinylog.Logger;
+
 import java.util.Random;
 
+/**
+ * {@code Operation} MMűveletek összerakását, illetve elvégzését szolgáló osztály.
+ */
 public class Operation {
         private int leftoperand;
         private int rightoperand;
@@ -13,13 +18,14 @@ public class Operation {
             this.rightoperand = random.nextInt(10);
             this.operandsymbol = operationsymbol;
             this.result=calculate(leftoperand, rightoperand, operationsymbol);
-
+            Logger.info("Létrejön egy művelet");
 
         }
 
 
     public int calculate(int leftoperand, int rightoperand, OperandSymbols operandsymbol) {
             int returnvalue = 0;
+            Logger.info("Elvégződik egy művelet");
             switch (operandsymbol) {
                 case SUM:
                     returnvalue = leftoperand + rightoperand;
@@ -42,6 +48,11 @@ public class Operation {
             }
             return returnvalue;
         }
+
+    /**
+     * {@code getResult} getter metódus.
+     * @return Az eredményt adja vissza.
+     */
         public int getResult() {
             return result;
         }

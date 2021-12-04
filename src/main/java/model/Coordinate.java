@@ -1,5 +1,10 @@
 package model;
 
+import org.tinylog.Logger;
+
+/**
+ * {@code Coordinate} Koordináta osztály getter, setter, equals, copy metódusokkal.
+ */
 public class Coordinate {
     private int x;
     private int y;

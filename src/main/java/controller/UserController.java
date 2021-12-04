@@ -14,9 +14,13 @@ import org.tinylog.Logger;
 import java.io.IOException;
 
 public class UserController {
-
+    /**
+     * {@code STANDARD} Végleges változó a gomb tulajdonságának beállításához.
+     */
     private static final String STANDARD= "-fx-border-color: black;";
-
+    /**
+     * {@code continueButton,userName,errorLabel} Az fxml elemeinek pédányositása.
+     */
     @FXML
     private Button continueButton;
 
@@ -26,6 +30,11 @@ public class UserController {
     @FXML
     private Label errorLabel;
 
+    /**
+     *
+     * @param actionEvent Egy gomb megnyomásának hatására lefut a metódus amiben betöltjük az új fxml-t.
+     * @throws IOException Input-Output kivételt  dobhat a metódus.
+     */
 
     public void continueAction(ActionEvent actionEvent) throws IOException {
         if (!userName.getText().isEmpty()){
@@ -36,7 +45,7 @@ public class UserController {
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
-            Logger.info("Az első kérdés betöltődik.");
+            Logger.info("Betölődik a játékmód kiválasztásáért felelős felület.");
 
         }else{
 
@@ -45,6 +54,10 @@ public class UserController {
 
         }
     }
+
+    /**
+     * {@code initialize()}Ez a metódus fut le először, a konstruktorhoz nagyon hasonló, azonban innen elérjük az fxml fájl tagjait.
+     */
     public void initialize(){
 
         continueButton.setStyle(STANDARD);

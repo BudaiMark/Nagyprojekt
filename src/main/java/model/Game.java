@@ -2,11 +2,18 @@ package model;
 
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyEvent;
+import org.tinylog.Logger;
+
 import java.util.ArrayList;
 import java.util.Random;
 
+/**
+ * Magáért a játékért felelős osztály. Itt használjuk a többi osztályt, amit létrehoztunk.
+ */
 public class Game {
-
+    /**
+     * {@code snake,foods, randomGenerator,score,boardHeight,boardWidth}
+     */
     private Snake snake;
     private ArrayList<Food> foods;
     private Random randomGenerator;
@@ -15,6 +22,12 @@ public class Game {
     private final int boardHeight;
     private final int boardWidth;
 
+    /**
+     * Az osztály konstruktora.
+     * @param boardWidth Szélesség.
+     * @param boardHeight Magasság.
+     * @param operandSymbol Operátor.
+     */
     public Game(int boardWidth, int boardHeight, OperandSymbols operandSymbol){
         snake = new Snake(boardWidth, boardHeight);
         randomGenerator = new Random(0);
@@ -24,7 +37,12 @@ public class Game {
 
     }
 
+    /**
+     * Operátor-t vár ami alapján előáálítja a kajákat.
+     * @param operandSymbol
+     */
     private void generateFood(OperandSymbols operandSymbol){
+        Logger.info("Kaja generálódik");
         Operation operation = new Operation(operandSymbol);
         ArrayList<Coordinate> availablecoordinates = new ArrayList<>();
         for (int y = 0; y <  boardHeight- 1; y++) {
@@ -46,7 +64,10 @@ public class Game {
     }
 
 
-
+    /**
+     * Mozgásért felelős metódus ami szintén egy operátort vár paraméterül a kajagenerálás miatt.
+     * @param operandSymbol
+     */
     public void move(OperandSymbols operandSymbol){
 
         if(snake.getHeadCoordinates().isEqual(foods.get(0).getFoodcoordinate()
@@ -66,8 +87,14 @@ public class Game {
             snake.moveDirection();
         }
     }
+
+    /**
+     * Iránybváltoztatást végző metódus.
+     * @param keyEvent Billentyűlenyoomást vár.
+     */
     public void changeDirecton(KeyEvent keyEvent){
         KeyCode keyCode = keyEvent.getCode();
+        Logger.info("Menetirányt változtatott a kígyó");
         switch (keyCode){
             case UP:
                 snake.setDirection(Directions.UP);
@@ -89,6 +116,14 @@ public class Game {
                 break;
         }
     }
+
+    /**
+     * Lehetővé teszi, hogy ne generálódjon azonos értékű kaja.
+     * @param operation Művelet.
+     * @param food Kaja.
+     * @param availablecoordinates Elérhető koordináták halmaza.
+     * @return  Kajával tér vissza.
+     */
     public Food makeDifferentValue(Operation operation, Food food, ArrayList<Coordinate> availablecoordinates){
         boolean differentvalue = true;
         for(int i = 0; i< foods.size(); i++ ){
@@ -107,13 +142,20 @@ public class Game {
         return food;
     }
 
-
+    /**
+     *
+     * @return Visszatér a kígyó koordinátáinak halmazával.
+     */
     public ArrayList<Coordinate> getSnakeCoords(){
         return snake.getBodyAsCoordinates();
     }
 
-
+    /**
+     * Vége-e a játéknak?
+     * @return Igazzal tér vissza ha vége, egyébként hamissal.
+     */
     public Boolean isOver() {
+        Logger.info("Vége-e a játéknak?");
         return snake.checkIfSnakeCrashed();
     }
 

@@ -1,0 +1,88 @@
+2021-12-04 18:31:27 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-04 18:31:27 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-04 18:31:30 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-04 18:31:30 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-04 18:31:36 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-04 18:31:36 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-04 18:31:38 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-04 18:31:38 [JavaFX Application Thread] controller.SnakeController.initialize()
+INFO: Betöltődik az SnakeController initialize() függvényben szereplő Button
+2021-12-04 18:31:38 [JavaFX Application Thread] controller.GameModeController.snakeAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-04 18:31:48 [JavaFX Application Thread] model.Database.addUsertoDB()
+INFO: User hozzáadása az adatbázishoz megkezdődik.
+2021-12-04 18:31:49 [JavaFX Application Thread] model.Database.addUsertoDB()
+INFO: Sikeres user hozzáadás az adatbázishoz.
+2021-12-04 18:31:49 [JavaFX Application Thread] controller.EndController.initialize()
+INFO: Betöltődik az EndController initialize() függvényben szereplő Button-ok vizuális beállítása.
+2021-12-04 18:31:49 [JavaFX Application Thread] controller.SnakeController.loadGameEndController()
+INFO: Betöltődik az GameEndController.
+2021-12-04 18:32:02 [JavaFX Application Thread] controller.ScoreController.initialize()
+INFO: Button vizuális beállítása.
+2021-12-04 18:32:02 [JavaFX Application Thread] controller.ScoreController.writeStandardData()
+INFO: Standart adatbázis betöltődik.
+2021-12-04 18:32:02 [JavaFX Application Thread] model.Database.getUsers()
+INFO: Standard adatbázis lekérdezés.
+2021-12-04 18:32:02 [JavaFX Application Thread] controller.ScoreController.initialize()
+INFO: Standart adatbázis betöltődött.
+2021-12-04 18:32:02 [JavaFX Application Thread] controller.ScoreController.writeTopTenData()
+INFO: Top10-es adatbázis betöltődik.
+2021-12-04 18:32:02 [JavaFX Application Thread] model.Database.getTopTen()
+INFO: Top10-es adatbázis lekérdezés.
+2021-12-04 18:32:02 [JavaFX Application Thread] controller.ScoreController.initialize()
+INFO: Top10-es adatbázis betöltődött.
+2021-12-04 18:32:03 [JavaFX Application Thread] controller.EndController.leaderboardAction()
+INFO: Betöltődik a eredményjelző felület.
+2021-12-04 18:32:22 [JavaFX Application Thread] controller.ScoreController.quitGame()
+INFO: Bezáródik a Quiz.
+2021-12-04 18:38:46 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-04 18:38:47 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-04 18:38:58 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-04 18:38:58 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-04 18:39:02 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-04 18:39:02 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-04 18:39:03 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-04 18:39:03 [JavaFX Application Thread] controller.SnakeController.initialize()
+INFO: Betöltődik az SnakeController initialize() függvényben szereplő Button
+2021-12-04 18:39:03 [JavaFX Application Thread] controller.GameModeController.snakeAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-04 18:39:08 [JavaFX Application Thread] model.Database.addUsertoDB()
+INFO: User hozzáadása az adatbázishoz megkezdődik.
+2021-12-04 18:39:10 [JavaFX Application Thread] model.Database.addUsertoDB()
+INFO: Sikeres user hozzáadás az adatbázishoz.
+2021-12-04 18:39:10 [JavaFX Application Thread] controller.EndController.initialize()
+INFO: Betöltődik az EndController initialize() függvényben szereplő Button-ok vizuális beállítása.
+2021-12-04 18:39:10 [JavaFX Application Thread] controller.SnakeController.loadGameEndController()
+INFO: Betöltődik az GameEndController.
+2021-12-04 18:39:26 [JavaFX Application Thread] controller.ScoreController.initialize()
+INFO: Button-ok vizuális beállítása.
+2021-12-04 18:39:26 [JavaFX Application Thread] controller.ScoreController.writeStandardData()
+INFO: Standart adatbázis betöltődik.
+2021-12-04 18:39:26 [JavaFX Application Thread] model.Database.getUsers()
+INFO: Standard adatbázis lekérdezés.
+2021-12-04 18:39:26 [JavaFX Application Thread] controller.ScoreController.initialize()
+INFO: Standart adatbázis betöltődött.
+2021-12-04 18:39:26 [JavaFX Application Thread] controller.ScoreController.writeTopTenData()
+INFO: Top10-es adatbázis betöltődik.
+2021-12-04 18:39:26 [JavaFX Application Thread] model.Database.getTopTen()
+INFO: Top10-es adatbázis lekérdezés.
+2021-12-04 18:39:26 [JavaFX Application Thread] controller.ScoreController.initialize()
+INFO: Top10-es adatbázis betöltődött.
+2021-12-04 18:39:27 [JavaFX Application Thread] controller.EndController.leaderboardAction()
+INFO: Betöltődik a eredményjelző felület.
+2021-12-04 18:39:30 [JavaFX Application Thread] controller.ScoreController.quitGame()
+INFO: Bezáródik a Quiz.

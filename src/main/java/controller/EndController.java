@@ -14,7 +14,7 @@ import org.tinylog.Logger;
 import java.io.IOException;
 /**
  *
- * {@code LaunchController}A screen-en megjelenő vizuális eszközökkel történő műveletek, események itt történnek kezelésre(eventek), továbbá
+ * {@code EndController}A screen-en megjelenő vizuális eszközökkel történő műveletek, események itt történnek kezelésre(eventek), továbbá
  * itt tudunk módosítani a képernyő tartalmán.
  *
  */
@@ -27,7 +27,7 @@ public class EndController {
     private static final String STANDARD= "-fx-border-color: black;";
 
     /**
-     * {@code startButton} A képernyőn látható vizuális eszköz példányosítása, az fxml-ből érjük el id alapján
+     * {@code restartButton, leaderboardButton,quitButton} A képernyőn látható vizuális eszköz példányosítása, az fxml-ből érjük el id alapján
      */
 
 
@@ -42,7 +42,7 @@ public class EndController {
 
 
     /**
-     * {@code startAction()}Egy gomb megnyomásának hatására lefut a metódus amiben betöltjük az új fxml-t.
+     * {@code restartAction()}Egy gomb megnyomásának hatására lefut a metódus amiben betöltjük az új fxml-t.
      * @param actionEvent A gombhoz tartozó esemény.
      * @throws IOException A lefutása közben adódó Input-Output kivétel.
      */
@@ -86,7 +86,7 @@ public class EndController {
         restartButton.setStyle(STANDARD);
         leaderboardButton.setStyle(STANDARD);
         quitButton.setStyle(STANDARD);
-        Logger.info("Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.");
+        Logger.info("Betöltődik az EndController initialize() függvényben szereplő Button-ok vizuális beállítása.");
 
 
     }
