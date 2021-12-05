@@ -1,10 +1,13 @@
 package model;
+import lombok.Data;
+
 import java.util.ArrayList;
 import java.util.Random;
 
 /**
  * {@code Food} Az az objektum ami az ételt tartalmazza, amit a kígyó felvesz.
  */
+@Data
 public class Food {
     private Coordinate foodcoordinate;
     private int value;
@@ -18,15 +21,22 @@ public class Food {
      */
     public Food(int value, ArrayList<Coordinate> availablecoordinates, boolean result){
         Random randomgenerator = new Random();
+        System.out.print(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
         if(result == true) {
             this.value = value;
-            foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
-            foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+            this.foodcoordinate = new Coordinate(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX(),
+                    availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+            this.result=result;
+            /*foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
+            foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());*/
         }
         else{
             this.value = randomgenerator.nextInt(10);
-            foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
-            foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+            this.foodcoordinate = new Coordinate(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX(),
+                    availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());
+            this.result=result;
+            /*foodcoordinate.setX(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getX());
+            foodcoordinate.setY(availablecoordinates.get(randomgenerator.nextInt(availablecoordinates.size())).getY());*/
         }
     }
 

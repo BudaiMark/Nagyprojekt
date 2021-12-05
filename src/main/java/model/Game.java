@@ -33,7 +33,7 @@ public class Game {
         randomGenerator = new Random(0);
         this.boardHeight = boardHeight;
         this.boardWidth = boardWidth;
-        generateFood(operandSymbol);
+        this.foods = generateFood(operandSymbol);
 
     }
 
@@ -41,7 +41,8 @@ public class Game {
      * Operátor-t vár ami alapján előáálítja a kajákat.
      * @param operandSymbol
      */
-    private void generateFood(OperandSymbols operandSymbol){
+    private ArrayList<Food> generateFood(OperandSymbols operandSymbol){
+        ArrayList<Food> foods = new ArrayList<>();
         Logger.info("Kaja generálódik");
         Operation operation = new Operation(operandSymbol);
         ArrayList<Coordinate> availablecoordinates = new ArrayList<>();
@@ -57,10 +58,12 @@ public class Game {
         availablecoordinates.remove(result.getFoodcoordinate());
         for(int i =0; i< 2; i++){
             Food food = new Food(operation.getResult(), availablecoordinates, false);
-            food = makeDifferentValue(operation, food, availablecoordinates);
+            System.out.print("A MÉRETE: "+food+"             ");
+            food = makeDifferentValue(operation, food, availablecoordinates, foods);
             foods.add(food);
             availablecoordinates.remove(food.getFoodcoordinate());
         }
+        return foods;
     }
 
 
@@ -124,7 +127,7 @@ public class Game {
      * @param availablecoordinates Elérhető koordináták halmaza.
      * @return  Kajával tér vissza.
      */
-    public Food makeDifferentValue(Operation operation, Food food, ArrayList<Coordinate> availablecoordinates){
+    public Food makeDifferentValue(Operation operation, Food food, ArrayList<Coordinate> availablecoordinates, ArrayList<Food> foods){
         boolean differentvalue = true;
         for(int i = 0; i< foods.size(); i++ ){
             if(foods.get(i).getValue() == food.getValue()){
@@ -135,7 +138,7 @@ public class Game {
         }
         if(differentvalue == false){
             food = new Food(operation.getResult(), availablecoordinates, false);
-            food = makeDifferentValue(operation,food, availablecoordinates);
+            food = makeDifferentValue(operation,food, availablecoordinates, foods);
 
         }
 
@@ -159,4 +162,11 @@ public class Game {
         return snake.checkIfSnakeCrashed();
     }
 
+    public ArrayList<Food> getFoods() {
+        return foods;
+    }
+
+    public int getScore() {
+        return score;
+    }
 }

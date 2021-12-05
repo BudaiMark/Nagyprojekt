@@ -85,10 +85,13 @@ public class GameModeController {
     public void snakeAction(ActionEvent actionEvent) throws IOException {
         Button transButton = (Button)actionEvent.getSource();
         OperandSymbols transOperandSymbol =switchOperation(transButton);
+        System.out.print("ITT MŰKÖDIK---------------");
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/fxml/snake.fxml"));
         Parent root = fxmlLoader.load();
         SnakeController controller = fxmlLoader.getController();
         controller.setUsername(userName);
+        System.out.print("ITTENI USERNAME:"+ userName);
+        System.out.print("USERNAMEEEEEEE"+controller.getUsername());
         controller.setOperandSymbol(transOperandSymbol);
         Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
         stage.setScene(new Scene(root));

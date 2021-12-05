@@ -86,3 +86,1441 @@ INFO: Top10-es adatbázis betöltődött.
 INFO: Betöltődik a eredményjelző felület.
 2021-12-04 18:39:30 [JavaFX Application Thread] controller.ScoreController.quitGame()
 INFO: Bezáródik a Quiz.
+2021-12-05 01:41:35 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:41:35 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 01:41:39 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:41:39 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 01:41:45 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:41:45 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 01:41:49 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 01:41:49 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 01:41:49 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 01:41:49 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 01:52:36 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:52:37 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 01:52:39 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:52:39 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 01:52:41 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:52:41 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 01:52:43 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 01:52:43 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 01:52:43 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 01:52:43 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 01:54:48 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:54:49 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 01:54:51 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:54:51 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 01:54:55 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:54:55 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 01:54:57 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 01:54:57 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 01:54:57 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 01:54:57 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 01:57:17 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:57:18 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 01:57:20 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:57:20 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 01:57:23 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 01:57:23 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 01:57:24 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 01:57:24 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 01:57:24 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 01:57:24 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 02:01:34 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:01:34 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 02:01:36 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:01:37 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 02:01:39 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:01:39 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 02:01:40 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 02:01:41 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 02:01:41 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 02:01:41 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 02:03:18 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:03:18 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 02:03:20 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:03:21 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 02:03:23 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:03:23 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 02:03:24 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 02:03:24 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 02:03:24 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 02:03:24 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 02:06:02 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:06:02 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 02:06:05 [JavaFX Application Thread] controller.LaunchController.quitGame()
+INFO: Bezáródik a Snake játék.
+2021-12-05 02:06:14 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:06:14 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 02:06:17 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:06:17 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 02:06:19 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:06:19 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 02:06:21 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 02:06:21 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 02:06:21 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 02:06:21 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 02:10:07 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:10:07 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 02:10:10 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:10:10 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 02:10:12 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 02:10:12 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 02:10:14 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 02:10:14 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 02:10:14 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 02:10:14 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 07:53:01 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 07:53:02 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 07:53:04 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 07:53:04 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 07:53:07 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 07:53:07 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 07:53:08 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 07:53:08 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 07:53:08 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 07:53:08 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 07:53:12 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 07:53:12 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 07:53:12 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 07:53:12 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:01:33 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:01:34 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:01:35 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:01:35 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:01:39 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:01:39 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:01:40 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:01:40 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:01:40 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:01:40 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:04:52 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:04:52 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:04:54 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:04:54 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:04:57 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:04:57 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:04:58 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:04:58 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:04:58 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:04:58 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:06:42 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:06:42 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:06:44 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:06:44 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:06:48 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:06:48 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:06:49 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:06:49 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:06:49 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:06:49 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:11:14 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:11:14 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:11:15 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:11:16 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:11:18 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:11:18 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:11:20 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:11:20 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:11:20 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:11:20 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:12:41 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:12:41 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:12:43 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:12:43 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:12:45 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:12:45 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:12:46 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:12:46 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:12:46 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:12:46 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:16:27 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:16:27 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:16:29 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:16:30 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:16:32 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:16:32 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:19:54 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:19:54 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:19:59 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:19:59 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:20:02 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:20:02 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:20:04 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:20:04 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:20:04 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:20:04 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:25:16 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:25:17 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:25:18 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:25:18 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:25:20 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:25:20 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:25:22 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:25:22 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:25:22 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:25:22 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:26:49 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:26:49 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:26:52 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:26:52 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:26:54 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:26:54 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:26:55 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:26:55 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:26:55 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:26:55 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:28:17 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:28:18 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:28:20 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:28:20 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:28:22 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:28:22 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:28:23 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:28:23 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:28:23 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:28:23 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:37:26 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:37:27 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:37:29 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:37:29 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a konvertáló felület.
+2021-12-05 08:37:32 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:37:32 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:37:36 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:37:36 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:37:36 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:37:36 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:37:36 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:37:36 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 08:51:58 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:51:58 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:52:00 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:52:00 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 08:52:01 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:52:01 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:52:03 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:52:03 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:52:03 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:52:03 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:52:03 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:52:03 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 08:54:55 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:54:55 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:54:57 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:54:58 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 08:54:59 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:54:59 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:55:00 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:55:00 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:55:00 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:55:00 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:55:00 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:55:00 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 08:57:16 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:57:16 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 08:57:18 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:57:18 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 08:57:20 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 08:57:20 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 08:57:22 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 08:57:22 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 08:57:22 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 08:57:22 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:57:22 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 08:57:22 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:00:14 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:00:15 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:00:16 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:00:16 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:00:18 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:00:18 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:00:19 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:00:19 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:00:19 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:00:19 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:00:19 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:00:19 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:02:34 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:02:34 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:02:36 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:02:36 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:02:40 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:02:40 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:02:41 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:02:41 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:02:41 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:02:41 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:02:41 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:02:41 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:03:59 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:03:59 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:04:01 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:04:02 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:04:04 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:04:04 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:04:05 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:04:05 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:04:05 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:04:05 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:04:05 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:04:05 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:08:40 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:08:41 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:08:42 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:08:42 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:08:45 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:08:45 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:08:46 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:08:46 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:08:46 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:08:46 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:08:46 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:08:46 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:13:13 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:13:13 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:13:15 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:13:15 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:13:17 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:13:17 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:13:18 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:13:18 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:13:18 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:13:18 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:13:18 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:13:18 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:14:53 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:14:53 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:14:55 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:14:55 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:14:57 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:14:57 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:14:58 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:14:58 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:14:58 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:14:58 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:14:58 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:14:58 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:16:23 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:16:23 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:16:26 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:16:26 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:16:29 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:16:29 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:16:30 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:16:30 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:16:30 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:16:30 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:16:30 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:16:30 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:19:03 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:19:03 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:19:08 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:19:08 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:19:10 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:19:10 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:19:12 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:19:12 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:19:12 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:19:12 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:19:12 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:19:12 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:21:06 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:21:06 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:21:13 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:21:13 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:21:18 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:21:18 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:21:24 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:21:24 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:21:25 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:21:25 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:21:25 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:21:25 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:22:29 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:22:29 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:22:33 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:22:33 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:22:44 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:22:44 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:22:45 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:22:45 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:22:45 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:22:45 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:22:45 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:22:45 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:24:41 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:24:41 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:24:43 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:24:43 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:24:45 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:24:45 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:24:46 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:24:46 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:24:46 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:24:46 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:24:46 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:24:46 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:26:22 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:26:22 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:26:24 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:26:24 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:26:26 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:26:26 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:26:27 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:26:27 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:26:27 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:26:27 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:26:27 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:26:27 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:27:24 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:27:24 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:27:26 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:27:26 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:27:28 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:27:28 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:27:29 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:27:29 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:27:29 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:27:29 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:27:29 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:27:29 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:30:23 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:30:23 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:30:26 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:30:26 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:30:28 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:30:28 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:30:29 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:30:29 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:30:29 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:30:29 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:30:29 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:30:29 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:33:10 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:33:10 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:33:14 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:33:15 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:33:17 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:33:17 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:33:18 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:33:18 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:33:18 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:33:18 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:33:18 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:33:18 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:35:00 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:35:00 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:35:08 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:35:08 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:35:10 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:35:10 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:35:11 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:35:11 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:35:11 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:35:11 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:35:11 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:35:11 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:36:36 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:36:36 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:36:38 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:36:38 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:36:40 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:36:40 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:36:41 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:36:41 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:36:41 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:36:41 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:36:41 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:36:41 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:38:39 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:38:39 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:38:41 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:38:41 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:38:43 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:38:43 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:38:45 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:38:45 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:38:45 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:38:45 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:38:45 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:38:45 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:41:04 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:41:05 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:41:07 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:41:07 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:41:10 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:41:10 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:41:11 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:11 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:11 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:12 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:12 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:13 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:13 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:13 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:13 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:58 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:58 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:58 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:58 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:58 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:41:59 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:41:59 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:42:00 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:42:00 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:24 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:44:24 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:44:27 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:44:27 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:44:30 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:44:30 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:44:31 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:31 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:31 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:32 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:32 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:33 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:33 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:44:33 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:44:33 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:14 [JavaFX Application Thread] controller.LaunchController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:48:15 [JavaFX Application Thread] main.MyApplication.start()
+INFO: A Snake alkalmazás betöltőképernyője betöltődik, beállítódik a cím és a Stage.
+2021-12-05 09:48:18 [JavaFX Application Thread] controller.UserController.initialize()
+INFO: Betöltődik az LaunchController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:48:18 [JavaFX Application Thread] controller.LaunchController.startAction()
+INFO: Betöltődik a Játék felület.
+2021-12-05 09:48:21 [JavaFX Application Thread] controller.GameModeController.initialize()
+INFO: Betöltődik az GameModeController initialize() függvényben szereplő Button és Textfield vizuális beállítása.
+2021-12-05 09:48:21 [JavaFX Application Thread] controller.UserController.continueAction()
+INFO: Betölődik a játékmód kiválasztásáért felelős felület.
+2021-12-05 09:48:22 [JavaFX Application Thread] controller.GameModeController.switchOperation()
+INFO: Műveletválasztás
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Snake.<init>()
+INFO: Létrejön a kígyó
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Game.generateFood()
+INFO: Kaja generálódik
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Operation.calculate()
+INFO: Elvégződik egy művelet
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Operation.<init>()
+INFO: Létrejön egy művelet
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:22 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:22 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:23 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:23 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Snake.incrimentBody()
+INFO: Nőtt a kígyó hossza.
+2021-12-05 09:48:24 [JavaFX Application Thread] model.Game.isOver()
+INFO: Vége-e a játéknak?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collision()
+INFO: Meghalt a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.isSelfCollision()
+INFO: Magába ütközött a kígyó?
+2021-12-05 09:48:24 [JavaFX Application Thread] model.SnakeBody.collidesWithWall()
+INFO: Falba ütközött a kígyó?
